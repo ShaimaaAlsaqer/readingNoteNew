@@ -19,36 +19,37 @@ ________________________________________________________________________________
 > The <sup> tag defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1].
 > The <sub> tag defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.
 >> <p>This text contains <sub>subscript</sub> text.</p> <p>This text contains <sup>superscript</sup> text.</p>
-__________________________________________________________________________________________
+___________________________________________________________________________________________________________
+
 *Line Breaks and Horizontal Rules*
->line breaks <br/>
->><br/> inserts a single line 
->><br/> is an empty tag which means that it has no end tag.
-__________________________________________________________________________________________
->Horizontal Rules
->><hr/> used to create a break between themes
->><hr/> is an empty tag which means that it has no end tag.
->>><p>Venus is the only planet that rotates clockwise.</p>
-<hr />
-<p>Jupiter is bigger than all the other planets combined.</p>
-__________________________________________________________________________________________
+line breaks <br/>
+- <br/> inserts a single line 
+- <br/> is an empty tag which means that it has no end tag.
+_________________________________________________________________________________________________________________
+
+Horizontal Rules
+* <hr/> used to create a break between themes
+* <hr/> is an empty tag which means that it has no end tag.
+* <p>Venus is the only planet that rotates clockwise.</p> <hr /> <p>Jupiter is bigger than all the other planets combined.</p>
+__________________________________________________________________________________________________________________
+
 *Strong and Emphasis*
-> Strong
->> <strong> tag indicates that its content has strong importance
->>By default, browsers will showthe contents of a <strong>element in bold
->>> <strong> importance</strong>
+Strong
+- <strong> tag indicates that its content has strong importance
+- By default, browsers will showthe contents of a <strong>element in bold
+- <strong> importance</strong>
 __________________________________________________________________________________________
->>Emphasis
->>By default browsers will show the contents of an <em> element in italic
->><em> tag indicates emphasis that subtly changes the meaning of a sentence
->>><em>italic</em>
+Emphasis
+- By default browsers will show the contents of an <em> element in italic
+- <em> tag indicates emphasis that subtly changes the meaning of a sentence
+- <em>italic</em>
 __________________________________________________________________________________________
 *Quotations*
 we have 2 tag used for marking up quotations:
-* blockquote tag is used for longer quotes that take up an entire paragraph
+- blockquote tag is used for longer quotes that take up an entire paragraph
 <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
 <p>paragtapg</p> </blockquote>``
-* <q> used for shorter quotes that sit within a paragraph
+- q used for shorter quotes that sit within a paragraph
 <p>paragraph, <q>Quotations tag</q></p>
 __________________________________________________________________________________________
 *abbreviation and acronyms*
@@ -69,13 +70,13 @@ ________________________________________________________________________________
 __________________________________________________________________________________________
 #### Chapter 10: Ch.10 “Introducing CSS” (pp.226-245)
 CSS stands for Cascading Style Sheets
--p {font-family: Arial;}
+- p {font-family: Arial;}
    >>that is mean all paragraph will shown as a font Arial
 __________________________________________________________________________________________
 -h1, h2, h3 { font-family: Arial; color: yellow;}
   >>thats mean all h1,h2,h3 tag all heading will shown as a font Arial
 __________________________________________________________________________________________
--link tag <link>
+- link tag <link>
  >>is empty tag
  >>link tag is used to link external style sheets
  >>>href: path to the CSS file
@@ -96,7 +97,7 @@ ________________________________________________________________________________
 * variables are containers for storing data values(var nameOfVariables=VarValue;)
 * array: (var arrayType= [red,black,blue];)
 __________________________________________________________________________________________
-#### Chapter 4: “Decisions and Loops” only up to the section on switch statements (pp.145-162)
+## Chapter 4: “Decisions and Loops” only up to the section on switch statements (pp.145-162)
 ***comparision operator***
 
 logical operator return true or false
