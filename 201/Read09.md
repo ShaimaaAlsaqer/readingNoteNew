@@ -51,11 +51,11 @@ just one of a number of option
 
 **********
 * `list-style-type` => allowsto control the shape or style of a bullet point
-> Unordered Lists
-> > none
-> > disc
-> > circle
-> > square
+*>* Unordered Lists
+> none
+> disc
+> circle
+> square
 > Ordered Lists
 > > decimal
 > > > 1 2 3
