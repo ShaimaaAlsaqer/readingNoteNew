@@ -62,18 +62,18 @@ Since the web was first created, there have been several different versions of H
 * block elements
 > some elements will always appear to start on a new line in the browser window. These are known as block level elements
 > Examples of block elements:
-> > 1<h1>
-> > 2<p>
-> > 3<ul>
-> > 4<li>
+> > h1 tag
+> > p tag
+> > ul tag
+> > li tag
 
 * inline elements
 > Some elements will always appear to continue on the same line as their neighbouring elements. These are known as inline elements
 > Examples of inline elements:
-> > 1<a>
-> > 2<b>
-> > 3<em>
-> > 3<img>
+> > a tag
+> > b tag
+> > em tag
+> > img tag
 * Grouping Text and Elements In a Block
 > <div> element allows you to group a set of elements together
 in one block-level box
